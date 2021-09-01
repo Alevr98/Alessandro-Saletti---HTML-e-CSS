@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <link rel="shortcut icon" type="favicon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Alessandro Saletti | Web Developer</title>
+  </head>
+<body>
+  <!-- Navbar elements -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo.png" height="80" width="100" no repeat center center cover alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#row2">About Me <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Header elements -->
+    <header>
+        <div class="head-banner">
+            <div class="container">
+                <div class="row h-50" id="row1">
+                    <div class="text col-xl-9 h-50">
+                        <div class="swipe">
+                            <h1>Hi, my name is <span>Alessandro</span></h1>
+                            <hr>
+                            <h1>I'm a <span>Full Stack Web Developer</span></h><br>
+                            <a href="project.html"><button type="button" class="btn btn-outline-light" href="project.html">My Projects</button></a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-2 container-fluid mx-auto">
+              <div class="row" id="row2">
+                <div class="about-me col-xl-6" data-aos="fade-left">
+                  <h2>About Me</h2>
+                  <p>I'm an Italian Web Developer, keen on code and design.
+                    This passion for the technology paved me the way for starting some courses about this topic.
+                  </p>
+                </div>
+                   <div class="img1 col-xl-6">
+                          <img src="img/1.png" height:"600" width="600" alt="Developer">
+               </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <!-- Main section -->
+  <main id="main">
+    <div class="container-3 container mx-auto">
+      <div class="row" id="row3">
+        <!-- Skills Section -->
+        <section id="skills">
+          <div class="text-skills col-lg-6">
+            <h3>Skillset</h3>
+          </div>
+          <div class="skills col-lg-6">
+            <div class="skill">
+              <div class="skill-name"> <h5>HTML</h5> <i class="fab fa-html5 fa-2x"></i></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="90%" style="max-width:90%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name"><h5>CSS</h5> <i class="fab fa-css3-alt fa-2x"></i></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="85%" style="max-width:85%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name"><h5>Javascript</h5> <i class="fab fa-js-square fa-2x"></i><h6>&lt;--!Still under study!--></h6></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="0%" style="max-width:0%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name"><h5>PHP</h5> <i class="fab fa-php fa-2x"></i><h6>&lt;--!Still under study!--></h6></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="0%" style="max-width:0%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name"><h5>Angular</h5> <i class="fab fa-angular fa-2x"></i><h6>&lt;--!Still under study!--></h6></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="0%" style="max-width:0%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name"><h5>Wordpress</h5> <i class="fab fa-wordpress fa-2x"></i><h6>&lt;--!Still under study!--></h6></div>
+              <div class="skill-bar">
+                <div class="skill-per" per="0%" style="max-width:0%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+<!-- Contact forms -->
+  <section id="contact">
+    <div class="container-4 container">
+      <div class="row">
+        <div class="col-lg-6">
+          <form class="contact-form" action="contactform.php" method="POST">
+            <h1 class="contact-h1">Contact me!</h1>
+            <p class="contact-p">Do you need more details? Please fell free to send me a message!</p>
+            <div class="col-name">
+              <label for="exampleInputEmail1">First name</label>
+              <input type="text" class="form-control" placeholder="Enter name" required>
+            </div>
+            <div class="form-group-email">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+            </div>
+            <div class="form-group-text">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write something.." rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+          </form>
+      </div>
+
+    </div>
+  </section>
+<!-- Footer -->
+  <footer>
+    <div class="container-footer">
+      <div class="box1">
+        <a href="https://github.com/Alevr98" title="github" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        <p>Github</p>
+      </div>
+      <div class="box2">
+        <a href="https://www.instagram.com/alessandrosaletti_/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+        <p>Instagram</p>        
+      </div>  
+      <div class="box3">
+        <a href="https://twitter.com/Alessan01348806" title="Twitter" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+        <p>Twitter</p>
+      </div>
+    </div>
+    <div class="footer-end">
+      <p>alessandrosaletti.com 2021 ©, All rights reserved</p>
+    </div>
+  </footer>
+
+    <!-- Bootstrap Javascript -->   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- Animation Javascript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>    AOS.init();</script>
+  <!-- Fontawesome -->  
+  <script src="https://kit.fontawesome.com/f157b68756.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+
