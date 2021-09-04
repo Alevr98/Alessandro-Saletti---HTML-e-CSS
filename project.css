@@ -8,10 +8,10 @@ body {
 /* Projects section */
 
 .container-project {
-    height: 80vh;
+    height: auto;
 }
 .col-xl-3 {
-margin: 0 1.5rem;
+    margin: 0 1.5rem;
 }
 
 .container-project h2 {
@@ -51,23 +51,32 @@ margin: 0 1.5rem;
     margin: .4rem;
 }
 
-@media screen and (max-width:1200px) {
-    .row img {
-        width: 55%;
-        height: 20rem;
-    }
-    .text-center {
-        height: auto;
-    }
-
-    /* .container-project {
-        height: 115rem;
-    } */
+#img-1 img {
+    max-width: 100%;
+}
+#img-2 img {
+    max-width: 100%;
+}
+#img-3 img {
+    max-width: 100%;
 }
 
-/* @media screen and (max-width:992px) {
-    .single-project img {
-        width: 40%;
-        height: 60vh;
+.footer-end {
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width:1200px) {
+    #img-1 img {
+        max-width: 55%;
     }
-} */
+    #img-2 img {
+        max-width: 55%;
+    }
+    #img-3 img {
+        max-width: 55%;
+    }
+    .footer-end {
+        position: static;
+    }
+}
