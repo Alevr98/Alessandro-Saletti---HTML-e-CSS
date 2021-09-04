@@ -6,10 +6,6 @@
 }
 
 /* Body Animation intro*/
-html {
-scroll-behavior: smooth;
-}
-
 body {
  animation: fadeInAnimation ease 1s;
  animation-iteration-count: 1;
@@ -235,6 +231,7 @@ align-items: center;
 .about-me h2 {
 background-color: #b5a383;
 color: antiquewhite;
+width: -moz-fit-content;
 width: fit-content;
 font-size: 3rem;
 border-radius: 5px;
@@ -270,6 +267,25 @@ min-height: 70vh;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+#html .skill-per {
+  max-width: 90%;
+}
+#css .skill-per {
+  max-width: 85%;
+}
+#javascript .skill-per {
+  max-width: 0%;
+}
+#php .skill-per {
+  max-width: 0%;
+}
+#angular .skill-per {
+  max-width: 0%;
+}
+#wordpress .skill-per {
+  max-width: 0%;
 }
 
 .skills{
@@ -332,6 +348,7 @@ to{
 }
 }
 
+
 /* Skills background */
 main {
 width: 100%;
@@ -363,7 +380,6 @@ font-style: italic;
 padding-left: 15px;
 font-size: 0.75rem;
 }
-
 
 /* Contact Forms */
 #contact {
